@@ -5,12 +5,10 @@
 // ["hello","2","world",";-)"] > ["2",":-)]
 
 string[] sourcearray = new string[] { "1", "2", "hello", "world", "res", "tst", ":-)" };
-string[] resultarray = new string[sourcearray.Length];
 
-
-void FindElement(string[] array3, string[] array4)
+void FindElement(string[] array3)
 {
-    int count = 0;
+
     Console.Write("[");
     for (int i = 0; i < array3.Length; i++)
 
@@ -26,6 +24,6 @@ void FindElement(string[] array3, string[] array4)
     Console.Write("]");
 }
 
-FindElement(sourcearray, resultarray);
+FindElement(sourcearray);
 
 
